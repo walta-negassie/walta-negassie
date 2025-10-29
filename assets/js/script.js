@@ -1,3 +1,4 @@
+// Toggle project details
 const toggleButtons = document.querySelectorAll('.toggle-btn');
 
 toggleButtons.forEach(btn => {
