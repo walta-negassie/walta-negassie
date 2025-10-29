@@ -1,4 +1,4 @@
-/* Reset some defaults */
+/* Reset defaults */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +11,7 @@ body {
     color: #333;
 }
 
+/* Header & Navigation */
 header {
     background: #2c3e50;
     color: #fff;
@@ -37,6 +38,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
 section {
     width: 90%;
     margin: 2rem auto;
@@ -47,6 +53,7 @@ h2 {
     color: #2c3e50;
 }
 
+/* Project Cards */
 .project-card {
     border: 1px solid #ccc;
     padding: 1rem;
@@ -68,6 +75,7 @@ h2 {
     background: #3498db;
 }
 
+/* Forms */
 form {
     display: flex;
     flex-direction: column;
@@ -93,6 +101,7 @@ form button:hover {
     background: #2ecc71;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 1rem 0;
@@ -101,3 +110,12 @@ footer {
     margin-top: 2rem;
 }
 
+/* Links in project details */
+.project-details a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.project-details a:hover {
+    text-decoration: underline;
+}
